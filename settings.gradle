@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AIDL"
+include ':app'
+include ':aidlserver'
+include ':aidlclient'
+include ':artaidlserver'
+include ':artaidlclient'
+include ':messenger_server'
+include ':messenger_client'
+include ':bindpool'
